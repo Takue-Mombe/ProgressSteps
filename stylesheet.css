@@ -1,0 +1,21 @@
+*{
+
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin:0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans;
+}
+.container{
+    text-align: center;
+}
+.progress{
+    justify-content: space-between;
+    display: flex;position: relative;margin-bottom: 30px;
+    max-width: 100%;width: 350px;
+}
